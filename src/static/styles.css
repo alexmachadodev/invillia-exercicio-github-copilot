@@ -136,6 +136,25 @@ button:hover {
   display: none;
 }
 
+.participants {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+
+.participant {
+  display: inline-block;
+  background-color: #e3f2fd;
+  color: #1565c0;
+  border: 1px solid #90caf9;
+  border-radius: 12px;
+  padding: 4px 10px;
+  font-size: 0.95em;
+  margin-bottom: 2px;
+  white-space: nowrap;
+}
+
 footer {
   text-align: center;
   margin-top: 30px;
